@@ -12,7 +12,7 @@ def unidirectional_fe(pulling_data, nblocks, ntrajs_per_block,
 
     Parameters:
     pulling_data : dict
-        pulling data
+        data from steered MD (does not have to be)
     nblocks : int
         number of blocks
     ntrajs_per_block : int
@@ -87,7 +87,7 @@ def bidirectional_fe(pulling_data, nblocks, ntrajs_per_block,
 
     Parameters:
     pulling_data : dict
-        pulling data
+        data from steered MD (does not have to be)
     nblocks : int
         number of blocks
     ntrajs_per_block : int
@@ -157,7 +157,7 @@ def symmetric_fe(pulling_data, nblocks, ntrajs_per_block,
 
     Parameters:
     pulling_data : dict
-        pulling data
+        data from steered MD (does not have to be)
     nblocks : int
         number of blocks
     ntrajs_per_block : int
